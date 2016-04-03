@@ -1,0 +1,10 @@
+[job_builder]
+ignore_cache=True
+keep_descriptions=False
+include_path=.:scripts:~/git/
+recursive=False
+allow_duplicates=False
+
+[jenkins]
+user=<%= node['jenkins_chef']['username'] %>
+url=http://<%= node['jenkins']['master']['host'] %>:<%= node['jenkins']['master']['port'] %>
