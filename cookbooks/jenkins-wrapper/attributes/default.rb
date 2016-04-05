@@ -1,6 +1,6 @@
 node.default[:java][:jdk_version] = '7'
 node.default[:jenkins][:master][:install_method] = 'war'
-node.default[:jenkins][:master][:host] = 'jenkins-test.ec.home'
+node.default[:jenkins][:master][:host] = node[:fqdn]
 
 node.default[:jenkins_admin][:username] = 'admin'
 node.default[:jenkins_admin][:fullname] = 'Administrator'
