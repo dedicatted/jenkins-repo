@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-There are few steps you have to complite in order to use this chef repository.
+There are few steps you have to complete in order to use this chef repository.
 
 1. Create data bag 'jenkins' with two items: 'keys' and 'admin_password' (look for the example in the repository 'data bags' directory).
    keys - the private key which will be used by the chef-client and jbb to access jenkins-cli.
