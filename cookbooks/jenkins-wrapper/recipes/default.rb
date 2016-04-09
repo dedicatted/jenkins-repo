@@ -55,6 +55,11 @@ jenkins_plugin 'github' do
   notifies :restart, 'runit_service[jenkins]', :immediately
 end
 
+# Install Build Flow Plugin
+jenkins_plugin 'build-flow-plugin' do
+  notifies :restart, 'runit_service[jenkins]', :immediately
+end
+
 # Install Jenkins job builder
 python_runtime '2'
 python_package 'jenkins-job-builder'

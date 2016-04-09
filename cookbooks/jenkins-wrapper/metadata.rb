@@ -4,7 +4,7 @@ maintainer_email 'infradevs@flugel.it'
 license 'MIT License'
 description 'Installs/Configures jenkins server'
 long_description 'Installs/Configures jenkins server'
-version '0.2.0'
+version '0.2.1'
 
 depends 'java'
 depends 'git'

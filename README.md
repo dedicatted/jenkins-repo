@@ -1,3 +1,4 @@
+
 ## jenkins repository
 
 ### Prerequisites
@@ -18,8 +19,8 @@ The cookbook provides two recipes:
 
 #### default
 
-Installs the Jenkins server (including Git and GitHub plugins) and the Jenkins Job Builder, creates Jenkins users and turns on Jenkins security.
+Installs the Jenkins server (including Git, GitHub and Build Flow plugins) and the Jenkins Job Builder, creates Jenkins users and turns on Jenkins security.
 
 #### seed
 
-Creates the 'seed' job.
+Creates the 'seed' job and runs it for the first time.
